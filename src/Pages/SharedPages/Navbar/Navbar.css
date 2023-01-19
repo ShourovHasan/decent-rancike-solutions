@@ -11,3 +11,13 @@
     font-weight: 500;
     padding: 20px 40px;
 }
+
+@media only screen and (max-width:766px) {
+
+    /* for without desktop: */
+    .btn_color {
+        width: auto;
+        height: auto;
+        border: 0;
+    }
+}

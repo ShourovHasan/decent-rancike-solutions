@@ -6,6 +6,7 @@ import Features from "../../Pages/Features/Features";
 import Help from "../../Pages/Help/Help";
 import Pricing from "../../Pages/Pricing/Pricing";
 import LoginSignUp from "../../Pages/SharedPages/LoginSignUp/LoginSignUp";
+import PageNotFound from "../../Pages/SharedPages/PageNotFound/PageNotFound";
 
 
 
@@ -39,5 +40,9 @@ export const routes = createBrowserRouter([
                 element: <Help></Help>
             },
         ]
+    },
+    {
+        path: '*',
+        element: <PageNotFound></PageNotFound>
     }
 ])
