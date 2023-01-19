@@ -1,0 +1,13 @@
+.btn_color{
+    background: #0370DD;
+    border-radius: 16px;
+    width: 212px ;
+    height: 65px;
+    border: 0;
+}
+.btn_text{
+    font-family: 'Manrope';
+    /* font-family: 'Playfair Display', serif; */
+    font-weight: 500;
+    padding: 20px 40px;
+}
